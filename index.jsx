@@ -6,6 +6,7 @@ import Card from './components/Card/index'
 import Testimonial from './components/Testimonial/index'
 import Tooltip from './components/Tooltip/index'
 import Toast from './components/Toast/Toast'
+import mayAnderson from '/images/may-anderson.jpg'
 
 function App() {
   return (
@@ -102,7 +103,7 @@ function App() {
         <details>
           <summary>Testimonials</summary>
           <div className="wrapper">
-            <Testimonial img="./images/may-anderson.jpg">
+            <Testimonial img={mayAnderson}>
               <Testimonial.Content>
                 <Testimonial.Quote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.</Testimonial.Quote>
                 <Testimonial.Author name="May Anderson" title="CTO" business="Workcation" />

@@ -1,5 +1,6 @@
 import React from 'react'
 import TestimonialImage from './TestimonialImage'
+import {dotPattern} from '../images/dot-pattern.svg'
 const TestimonialContext = React.createContext()
 
 export default function Testimonial({children, img = "", logo = ""}) {
@@ -15,7 +16,7 @@ export default function Testimonial({children, img = "", logo = ""}) {
                 {
                     !img &&
                         <div className="dot-wrapper">
-                            <img src="../images/dot-pattern.svg" alt="" />
+                            <img src={dotPattern} alt="" />
                         </div>
                 }
             </div>

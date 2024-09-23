@@ -1,3 +1,3 @@
 *Scrimba Project
 
-**React Component Library
+React Component Library
